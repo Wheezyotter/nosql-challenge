@@ -1,15 +1,15 @@
 # nosql-challenge
-NoSQL-challange is an exercise to practice using mongoDB databases and pymongo to clean and analyze data. 
+NoSQL-challange is an exercise to practice using mongoDB databases and pymongo to clean and analyze data.
 
-To practice these skills, the scripts aim to read data from establishments across the UK based on provided sample data found in the Resources folder and query specific information from it. NoSQL_setup.ipynb reads and cleans the data while noSQL_analysis.ipynb analyzes the data. 
+To practice these skills, the scripts aim to read data from establishments across the UK based on provided sample data found in the Resources folder and query specific information from it. NoSQL_setup.ipynb reads and cleans the data while noSQL_analysis.ipynb analyzes the data.
 
 ### Part 1: NoSQL_setup.ipynb
 ---
-Data is imported into mongoDb using the following in the console: 
+Data is imported into mongoDb using the following in the console:
 
     mongoimport --type json  -d uk_food -c establishments --drop --jsonArray establishments.json
 
-In this script the data is imported using pymongo and updated to include and new restaurant 'Penang Flavours'. The data types for "RatingValue" and "Geocode" are then updated for the entire database. 
+In this script the data is imported using pymongo and updated to include and new restaurant 'Penang Flavours'. The data types for "RatingValue" and "Geocode" are then updated for the entire database.
 
 ### Part 2: NoSQL_analysis.ipynb 
 ---
